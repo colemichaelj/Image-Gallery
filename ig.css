@@ -1,0 +1,134 @@
+.Bones {
+    background-image: url(pinky1.jpeg);
+height: 400px;
+background-repeat: no-repeat;
+grid-area: Bones;
+}
+ .Love {
+    color:  rgb(87, 87, 87);
+    display: none;
+}
+.Bones:hover .Love {
+    display: block;
+}
+.Joy {
+    background-image: url(Jthree.jpeg);
+    height: 400px;
+    background-repeat: no-repeat;
+    grid-area: Joy;
+}
+.Joy2 {
+    color:  rgb(82, 80, 80);
+    display: none;
+}
+.Joy:hover .Joy2 {
+    display: block;
+}
+.Lens {
+    background-image: url(Lens.jpeg);
+    height: 400px;
+    background-repeat: no-repeat;
+    grid-area: Lens;
+}
+.Lens2 {
+    color:  rgb(73, 71, 71);
+    display: none;
+}
+.Lens:hover .Lens2 {
+    display: block;
+}
+.Coffee {
+    background-image: url(coffee.jpeg);
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    grid-area: Coffee;
+}
+.Coffee2 {
+    color:  rgb(65, 65, 65);
+    display: none;
+}
+.Coffee:hover .Coffee2 {
+    display: block;
+}
+.Rainbow {
+    background-image: url(rainbow.jpeg);
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    grid-area: Rainbow;
+}
+.Rainbow2 {
+    color:  rgb(95, 88, 88);
+    display: none;
+}
+.Rainbow:hover .Rainbow2 {
+    display: block;
+}
+.Time {
+    background-image: url(time.jpeg);
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    grid-area: Time;
+}
+.Time2 {
+    color:  rgb(99, 97, 97);
+    display: none;
+}
+.Time:hover .Time2 {
+    display: block;
+}
+.Boxing {
+    background-image: url(BoxBox.jpeg);
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    grid-area: Boxing;
+}
+.Boxing2 {
+    color:  rgb(90, 90, 90);
+    display: none;
+}
+.Boxing:hover .Boxing2 {
+    display: block;
+}
+.Bliss {
+    background-image: url(bliss.jpeg);
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    grid-area: Bliss;
+}
+.Bliss2 {
+    color:  rgb(90, 90, 90);
+    display: none;
+}
+.Bliss:hover .Bliss2 {
+    display: block;
+}
+.Cloudy {
+    background-image: url(Cloudy.jpeg);
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    grid-area: Cloudy;
+}
+.Cloudy2 {
+    color:  rgb(165, 162, 162);
+    display: none;
+}
+.Cloudy:hover .Cloudy2 {
+    display: block;
+}
+.Gridit{
+    grid-template-rows: auto auto; 
+    grid-template-areas: "Bones Lens Joy"
+    "Rainbow Time Boxing"
+    "Coffee Bliss Cloudy";
+    grid-template-columns: auto auto auto; 
+    background-repeat: no-repeat;
+    display: grid;
+    margin: 3em;
+    padding: 5px; 
+}
